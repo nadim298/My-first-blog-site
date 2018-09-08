@@ -1,0 +1,91 @@
+body{
+	margin:0;
+	padding:0;
+	outline:0;
+	background:url(images/signin.jpg);
+	background-size:cover;
+	font-family:sans-serif;
+	
+}
+.title{
+	text-align:center;
+	padding:50px 0 20px;
+	box-shadow:inset 3px 3px 3px #BFBFBF,inset -3px -3px 3px #8C8C8C;
+	margin-bottom:5px;
+	}
+.title h1{
+	margin:0;
+	padding:0;
+	color:orange;
+	text-transform:uppercase;
+	font-size:36px;
+}
+.form_container{
+	width:60%;
+	height:515px;
+	background:#fff;
+	margin:0 auto;
+	border:2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+	margin-bottom:70px;
+}
+.form_container .left{
+	float:left;
+	width:50%;
+	height:395px;
+	background:url(images/signin_left.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	
+}
+.form_container .right{
+	float:right;
+	width:50%;
+	height:400px;
+	box-sizing:border-box;
+}
+.formbox{
+	width:100%;
+	padding:80px 40px;
+	box-sizing:border-box;
+	height:395px;
+	background:#fff;
+}
+.formbox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:#a6af13;
+}
+.formbox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.formbox input[type="text"],
+.formbox input[type="password"]{
+	border:none;
+	border-bottom:2px solid #a6af13;
+	outline:none;
+	height:40px;
+	
+}
+.formbox input[type="text"]:focus,
+.formbox input[type="password"]:focus{
+	border-bottom:2px solid #262626;
+}
+.formbox input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.formbox input[type="submit"]:hover{
+	background:#a6af13;
+}
+.formbox a{
+	color:#262626;
+	font-size:12px;
+	font-weight:bold;
+}

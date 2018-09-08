@@ -1,0 +1,16 @@
+
+div#sticker {
+}
+div#sticker2 {
+
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:9999999;
+}
+.stick2 {
+	position:fixed;
+	top:70px;
+	z-index:9999999;
+}

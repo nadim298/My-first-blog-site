@@ -1,0 +1,22 @@
+<?php
+	require_once('includes/db.php');
+	ob_start();
+	session_start();
+	if(!isset($_SESSION['username'])){
+		header("location:signin.php");
+	}
+	$session_user=$_SESSION['username'];
+	$session_user_status=$_SESSION['status'];
+	$query="SELECT * FROM members WHERE username='$session_user'";
+	$run=mysqli_query($conn,$query);
+	$row=mysqli_fetch_array($run);
+					$db_id=$row['id'];
+					$db_name=$row['name'];
+					$db_mobile=$row['mobile'];
+					$db_email=$row['email'];
+					$db_username=$row['username'];
+					$db_status=$row['status'];
+					$db_pp=$row['pp'];
+					$db_address=$row['address'];
+					$db_password=$row['password'];
+?>

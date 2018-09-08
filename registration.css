@@ -1,0 +1,84 @@
+body{
+	margin:0;
+	padding:0;
+	outline:0;
+	background:url(images/signin.jpg);
+	background-size:cover;
+	font-family:sans-serif;
+
+	background-attachment:fixed;
+}
+.title{
+	text-align:center;
+	padding:50px 0 20px;
+	box-shadow:inset 3px 3px 3px #BFBFBF,inset -3px -3px 3px #8C8C8C;
+	margin-bottom:5px;
+	}
+.title h1{
+	margin:0;
+	padding:0;
+	color:orange;
+	text-transform:uppercase;
+	font-size:36px;
+}
+.form_container{
+	width:60%;
+	
+	background:#fff;
+	margin:0 auto;
+	border:2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+	margin-bottom:70px;
+}
+.formbox{
+	width:100%;
+	padding:80px 40px;
+	box-sizing:border-box;
+	color:#a6af13;
+	background:#fff;
+}
+.formbox p{
+	
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	
+}
+.formbox input{
+	width:60%;
+	margin-bottom:20px;
+}
+.formbox input[type="text"],
+.formbox input[type="password"],
+.formbox input[type="email"]{
+	border:none;
+	border-bottom:2px solid #a6af13;
+	outline:none;
+	height:40px;
+	
+}
+.formbox input[type="text"]:focus,
+.formbox input[type="password"]:focus,
+.formbox input[type="email"]:focus{
+	border-bottom:2px solid #262626;
+}
+.formbox input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.formbox input[type="submit"]:hover{
+	background:#a6af13;
+}
+.formbox a{
+	color:#262626;
+	font-size:12px;
+	font-weight:bold;
+}
+.formbox img{
+	float:right;
+	height:200px;
+}

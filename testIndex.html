@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="css/bootstrap.css">	
+	<link rel="stylesheet" href="css/bootstrap.min.js">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">	
+	<script src="js/bootstrap.js"></script>
+	
+    <link rel="icon" href="images/logo.png">
+    <title>My Blog</title>
+	<script>
+		function toggleSidebar(){
+			document.getElementById("sidebar").classList.toggle("active");
+		}
+	</script>
+  </head>
+  <body>
+	<nav class="navbar navbar-default navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-logo">
+					<img src="images/logo.png" alt="logo"/>
+				</div>
+				<div class="navbar-header">
+					<h3><a href="#">My Blog</a></h3>
+					<p>This is a short description about this website</p>
+				</div>
+				<ul class="nav navbar-nav navbar-right user">
+					<li style="border-right:3px solid green;"><a href="#">Guest</a></li>
+					<li><a href="login.php">Sign In</a></li></br>
+					<li style="margin-left:15px;"><a href="#">Registration</a></li>
+				</ul>	
+			</div>
+	</nav>
+	<div class="jumbotron">
+		<div class="container">
+			
+				<div class="container search">
+					<form action="#">
+						<div class="input-group">
+							<input type="text" class="form form-control" placeholder="Search here.." name="search">
+							<div class="input-group-btn">
+								<button class="btn btn-default" type="submit">Search</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="container topic">
+			<ul class="nav nav-tabs">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Term & Condition</a></li>
+			</ul>
+	</div>
+				<div id="toggle-btn" onclick="toggleSidebar()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+			
+		</div>
+	</div>
+	<div id="sidebar">
+					<div class="list">
+						<div class="item">Computer</div>
+						<div class="item">Mobile</div>
+						<div class="item">Articles</div>
+					</div>
+					
+	</div>
+	<section class="templete_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 templete_post">
+					<div class="post">
+						<div class="post_heading">
+						<div class="row">
+							<div class="col-md-2 post_date">
+								<div class="day">17</div>
+								<div class="month">March</div>
+								<div class="year">2018</div>
+							</div>
+							<div class="col-md-8 post_title">
+								<a href="#"><h2>This is the post heading..</h2></a>
+								<p>Written by: <span>Admin</span></p>
+								<div class="bottom">
+									<span><i class="fas fa-folder"></i><a href="#"> Catagory </a></span><span><i class="fas fa-comment"></i><a href="#">   Comments</a></span>
+								</div>
+							</div>
+							<div class="col-md-2 writer_photo">
+								<img src="images/pp/admin.jpg" alt="image" class="img-circle">
+							</div>
+						</div>
+						
+					</div>
+					<div class="row">
+							<div class="single_post">
+								<a href="post.html"><img src="images/illution.jpg" alt="post image"/></a>
+								<p>maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent
+									maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent
+									maincontent maincontent maincontent maincontent maincontent maincontent maincontent maicontent maincontent maincontent maincontent maincontent maincontent
+									maincontent maincontent maincontent maincontent maincontent maincontent maincontentent maincontent <a href="#">....Read more</a>
+								</p>
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="post">
+						<div class="post_heading">
+						<div class="row">
+							<div class="col-md-2 post_date">
+								<div class="day">17</div>
+								<div class="month">March</div>
+								<div class="year">2018</div>
+							</div>
+							<div class="col-md-8 post_title">
+								<a href="#"><h2>This is the post heading..</h2></a>
+								<p>Written by: <span>Admin</span></p>
+								<div class="bottom">
+									<span><i class="fas fa-folder"></i><a href="#"> Catagory </a></span><span><i class="fas fa-comment"></i><a href="#">   Comments</a></span>
+								</div>
+							</div>
+							<div class="col-md-2 writer_photo">
+								<img src="images/pp/admin.jpg" alt="image" class="img-circle">
+							</div>
+						</div>
+						
+					</div>
+					<div class="row">
+							<div class="single_post">
+								<a href="post.html"><img src="images/illution.jpg" alt="post image"/></a>
+								<p>maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent
+									maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent
+									maincontent maincontent maincontent maincontent maincontent maincontent maincontent maicontent maincontent maincontent maincontent maincontent maincontent
+									maincontent maincontent maincontent maincontent maincontent maincontent maincontentent maincontent <a href="#">....Read more</a>
+								</p>
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="post">
+						<div class="post_heading">
+						<div class="row">
+							<div class="col-md-2 post_date">
+								<div class="day">17</div>
+								<div class="month">March</div>
+								<div class="year">2018</div>
+							</div>
+							<div class="col-md-8 post_title">
+								<a href="#"><h2>This is the post heading..</h2></a>
+								<p>Written by: <span>Admin</span></p>
+								<div class="bottom">
+									<span><i class="fas fa-folder"></i><a href="#"> Catagory </a></span><span><i class="fas fa-comment"></i><a href="#">   Comments</a></span>
+								</div>
+							</div>
+							<div class="col-md-2 writer_photo">
+								<img src="images/pp/admin.jpg" alt="image" class="img-circle">
+							</div>
+						</div>
+						
+					</div>
+					<div class="row">
+							<div class="single_post">
+								<a href="post.html"><img src="images/illution.jpg" alt="post image"/></a>
+								<p>maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent
+									maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent maincontent
+									maincontent maincontent maincontent maincontent maincontent maincontent maincontent maicontent maincontent maincontent maincontent maincontent maincontent
+									maincontent maincontent maincontent maincontent maincontent maincontent maincontentent maincontent <a href="#">....Read more</a>
+								</p>
+								
+							</div>
+							
+						</div>
+					</div>
+					<nav aria-label="Page navigation example" id="pagination">
+					  <ul class="pagination">
+						<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">Next</a></li>
+					  </ul>
+					</nav>
+				</div>
+				<div class="col-md-4 templete_popular">
+					<div class="widgets">
+						<div class="popular">
+							<h4>Popular Posts</h4>
+							<hr/>
+							<div class="row">
+								<div class="col-xs-4">
+									<img src="images/win10.jpg" alt="post logo">
+								</div>
+								<div class="col-xs-8 details">
+									<h4>This is heading</h4>
+									<p><i class="fas fa-clock"></i> Date</p>
+								</div>					
+							</div>
+							<hr/>
+							<div class="row">
+								<div class="col-xs-4">
+									<img src="images/win10.jpg" alt="post logo">
+								</div>
+								<div class="col-xs-8 details">
+									<h4>This is heading</h4>
+									<p><i class="fas fa-clock"></i> Date</p>
+								</div>					
+							</div>
+							<hr/>
+							<div class="row">
+								<div class="col-xs-4">
+									<img src="images/win10.jpg" alt="post logo">
+								</div>
+								<div class="col-xs-8 details">
+									<h4>This is heading</h4>
+									<p><i class="fas fa-clock"></i> Date</p>
+								</div>					
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="social">
+						<div class="row"><a href="#"><img src="images/social/fb.png" alt="facebook"></a></div>
+						<div class="row"><a href="#"><img src="images/social/insta.png" alt="facebook"></a></div>
+						<div class="row"><a href="#"><img src="images/social/twit.png" alt="facebook"></a></div>
+						
+					</div>
+				</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="footer">
+		<div class="footermenu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Privacy</a></li>
+			</ul>
+		</div>
+		<p>&copy; This website is for practise</p>
+	</div>
+	</section>
+  </body>
+</html>

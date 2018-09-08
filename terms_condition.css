@@ -1,0 +1,31 @@
+.para{
+	background:white;
+	padding:1px;
+	margin:auto;
+	width:71.4%;
+	margin-top:5px;
+	margin-bottom:30px;
+}
+.templete h3{
+	padding:10px;
+	text-align:center;
+}
+.templete p{
+	margin:20px 100px;
+}
+.single_row{
+	border:2px solid black;
+	margin:10px;
+	border-radius:10px;
+	box-shadow:0 0 2px black;
+}
+.single_row h2{
+	margin-left:25px;
+}
+.heading{
+	margin:0px;
+	box-shadow: 0 1px 3px 0 black;
+}
+.details{
+	margin:100px;
+} 

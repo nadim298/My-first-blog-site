@@ -1,0 +1,9 @@
+<?php echo $db_username;?>
+<?php   
+								if ($session_user_status == "Admin"){
+									echo '<a  href="./admin_panel.php"> <?php echo $db_username;?> </a>';
+								}
+								else {
+									echo '<a  href="(./member_panel.php)"> <?php echo $db_username;?> </a>';
+								}
+							?>
